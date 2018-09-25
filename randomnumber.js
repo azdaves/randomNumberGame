@@ -2,7 +2,7 @@ function getRandomNumber ( lower, upper ) {
   return Math.floor(Math.random() * (upper - lower + 1 )) + lower; 
              
 }
-console.log( getRandomNumber (1, 10));
- console.log( getRandomNumber (1, 100));                               
-console.log( getRandomNumber (200, 700));
-  console.log( getRandomNumber (4000, 10000));
+document.write('<h1> Here is a random ' + getRandomNumber (1, 10) + '</h1>');
+document.write('<h1> Here is a random ' + getRandomNumber (100, 1000) + '</h1>');                              
+document.write('<h1> Here is a random ' + getRandomNumber (5, 50) + '</h1>');
+document.write('<h1> Here is a random ' + getRandomNumber (1000, 10000) + '</h1>');
